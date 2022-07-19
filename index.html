@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min6.css">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>MV - Portfolio</title>
+</head>
+<body>
+<!--==================== HEADER ====================-->
+<header class="header" id="header">
+    <nav class="nav content container">
+        <a href="#" class="nav_logo">MV</a>
+
+        <div class="nav_menu" id="nav-menu">
+            <ul class="nav_list grid">
+                <li class="nav_item">
+                    <a href="#home" class="nav_link">
+                        <i class="uil uil-estate"></i>Home
+                    </a>
+                </li>
+
+                <li class="nav_item">
+                    <a href="#user" class="nav_link">
+                        <i class="uil uil-user-circle"></i>À propos
+                    </a>
+                </li>
+
+                <li class="nav_item">
+                    <a href="#skills" class="nav_link">
+                        <i class="uil uil-arrow nav_icon"></i>Connaissances
+                    </a>
+                </li>
+
+                <li class="nav_item">
+                    <a href="#portfolio" class="nav_link">
+                        <i class="uil uil-bag nav_icon"></i>Portfolio
+                    </a>
+                </li>
+
+                <li class="nav_item">
+                <a href="#contact" class="nav_link">
+                    <i class="uil uil-message  nav_icon"></i>Contact                </a>
+                </li>
+                
+            </ul>
+            <i class="uil uil-times nav_close nav_icon" id="nav-close"></i>
+        </div>
+        <div class="nav_btns">
+            <!--Button dark/night-->
+            <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+            <div class="nav_toggle" id="nav-toggle">
+                <i class="uil uil-apps"></i>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!--==================== MAIN  ====================-->
+
+<main class="main">
+    <!--==================== Home  ====================-->
+    <section class="home section" id="home">
+        <div class="home_container container grid">
+            <div class="home_content grid">
+                <div class="home_social">
+                    <a href="https://github.com/LeMarvinX?tab=repositories" target="_blank" class="home_social-icon">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/feed/" target="_blank" class="home_social-icon">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+                </div>
+
+                <div class="home_img">
+                    <svg viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                            130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                            97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                            0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                            165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                            129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                            -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                            <image class="home_blob-img" xlink:href="assets/img/IMG_20220301_100819(1).jpg"/>
+                        </g>
+                    </svg>
+                </div>   
+                
+                <div class="home_data">
+                    <h1 class="home_title">Bonjour, je suis Marvin Vanhoutte</h1>
+                    <h3 class="home_subtitle">Web développeur(Fullstack)</h3>
+                    <p class="home_description">Actuellement en formation à l'Ecole EPITECH lille</p>
+                    <a href="#contact" class="button button-flex">
+                        <i class="uil uil-message  button_icon"></i>Contactez-Moi
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="home_scroll">
+                <a href="#about" class="home_scroll-button button-flex">
+                    <i class="uil uil-mouse home_scroll-mouse"></i>
+                    <span class="home_scroll-name">Scroll down</span>
+                    <i class="uil uil-arrow-down home_scroll-arrow"></i>
+                </a>
+            </div>
+
+        </div>
+    </section>
+    <!--==================== About  ====================-->
+        <section class="about section" id="about">
+            <h2 class="section_title">À Propos de Moi</h2>
+            <span class="section_subtitle"></span>
+
+            <div class="about_container container grid">
+                <img src="" alt="" class="about_img">
+
+                <div class="about_data">
+                    <p class="about_description">Développeur Fullstack en première année de formation à la 
+                        webacadémie à Epitech Lille . Soif 
+                        d'apprendre et curieux de découvrir de nouvelles expériences 
+                        dans le monde du développement web, je serais ravis de participer tout 
+                        vos projets. En recherche d'alternance pour ma seconde année de formation.
+                    </p>
+                    
+                    <div class="about_info">
+                        
+                        <div>
+                            <span class="about_info-title">Jeux Vidéos</span>
+                            
+                        </div>
+
+                        <div>
+                            <span class="about_info-title">Cinéma</span>
+                        </div>
+
+                        <div>
+                            <span class="about_info-title">E-Sport</span>
+                        </div>
+
+                        <div>
+                            <span class="about_info-title">Anime/manga</span>
+                        </div>
+                    </div>
+
+                    <div class="about_buttons">
+                        <a download="" href="assets/img/CV_2022-02-28_Marvin_Vanhoutte.pdf" class="button button-flex">
+                            Télécharger mon CV<i class="uil uil-file-download button_icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--==================== Skills  ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section_title">Connaissances</h2>
+            <span class="section_subtitle">Langages Travaillés</span>
+
+            <div class="skilss_container container grid">
+                <div>
+                    <div class="skills_content skills_open">
+                        <div class="skills_header">
+                            <i class="uil uil-brackets-curly skills_icon"></i>
+
+                            <div>
+                                <h1 class="skills_title">Développeur Fullstack</h1>
+                                <span class="skills_subtitle">Appris durant l'année 2021/2022</span><br>
+                            </div>
+
+                        </div>
+
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">HTML <img src="" alt=""></h3>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">CSS</h3>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">PHP</h3>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">JavaScript</h3>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">PHP</h3>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">NodeJS</h3>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">ReactJS</h3>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">MYSQL</h3>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">WordPress</h3>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Figma</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--====================  portfolio ====================-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section_title">Portfolio</h2>
+            <span class="section_subtitle">Aperçu de quelques projets</span>
+
+            <div class="portfolio_container container swiper-container">
+                <div swiper-wrapper>
+                    <!--Projet 1-->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assets/img/images.png" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">My_Snapchat</h3>
+                            <p class="portfolio_description">Description:<br>
+                                Recréation de l'application Snapchat - Apprendre à utiliser React Native
+                                 et déployé une application sur smartphone.<br>
+                                Reconstruire l'interface visuel et les fonctionnalités de snapchat.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!--Projet 2-->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assets/img/twitt.png" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Tweet_Academie</h3>
+                            <p class="portfolio_description">Recréation du réseau social Twitter  - Utilisation d'Ajax, Micro-frameworks CSS et création de base de données.
+                                Le but de ce projet est de créer un réseau social  qui aura les mêmes
+                                fonctionnalités que twitter. Il devra être le plus ressemblant possible en terme de fonctionnalités par rap-
+                                port au site “Twitter”.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+    <!--==================== CONTACT  ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section_title">Me Contacter</h2>
+            <span class="section_subtitle">Intéresser ?</span>
+
+            <div class="contact_container container grid">
+                <div>
+                    <div class="contact_information">
+                        <i class="uil uil-phone contact_icon"></i>
+
+                        <div>
+                            <h3 class="contact_title">M'appeler</h3>
+                            <span class="contact_subtitle">07.87.07.50.93</span>
+                        </div>
+                    </div>
+                        <div class="contact_information">
+                            <i class="uil uil-envelope contact_icon"></i>
+
+                            <div>
+                                <h3 class="contact_title">Email</h3>
+                                <span class="contact_subtitle">vanhoutte1998@yahoo.fr</span>
+                            </div>
+                        </div>
+                        <div class="contact_information">
+                            <i class="uil uil-map-marker contact_icon"></i>
+
+                            <div>
+                                <h3 class="contact_title">Localisation</h3>
+                                <span class="contact_subtitle">France - 43b rue du Chemin de Fer, Roubaix 59100</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+
+                <form action="" class="contact_form grid">
+                    <div class="contact_inputs grid">
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Name</label>
+                            <input type="text" class="contact_input">
+                        </div>
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Objet du message</label>
+                            <input type="text" class="contact_input">
+                        </div>
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Message</label>
+                            <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
+                        </div>
+
+                        <div>
+                            <a href="#" class="button button-flex">
+                                Send Message
+                                <i class="uil uil-message button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+</main>
+
+<!--==================== FOOTER  ====================-->
+<footer class="footer">
+    <div class="footer_bg">
+        <div class="footer_container container grid">
+            <div>
+                <h1 class="footer_title">Marvin Vanhoutte</h1>
+                <span class="footer_subtitle">Développeur Fullstack</span>
+            </div>
+
+            <ul class="footer_links">
+                <li>
+                    <a href="#home" class="footer_link">Home</a>
+                </li>
+                <li>
+                    <a href="#user" class="footer_link">À Propos</a>
+                </li>
+                <li>
+                    <a href="#skills" class="footer_link">Connaissances</a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="footer_link">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contact" class="footer_link">Contact</a>
+                </li>
+            </ul>
+
+            <div class="footer_socials">
+                <a href="https://github.com/LeMarvinX?tab=repositories" target="_blank" class="footer_social">
+                    <i class="uil uil-github-alt"></i>
+                </a>
+                <a href="https://github.com/LeMarvinX?tab=repositories" target="_blank" class="footer_social">
+                    <i class="uil uil-linkedin-alt"></i>
+                </a>
+            </div>
+        </div>
+        <p class="footer_copy">&#169;MV</p>
+    </div>
+</footer>
+<!--====================  SCROLL TOP ====================-->
+
+<!--====================  SWIPER JS ====================-->
+<script src="assets/js/swiper-bundle.min6.js"></script>
+
+<!--==================== MAIN JS ====================-->
+<script src="assets/js/main.js"></script>
+</body>
+</html>
